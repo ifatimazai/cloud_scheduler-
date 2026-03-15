@@ -1,0 +1,61 @@
+=== Cloud Resource Scheduler Log ===
+Started at: Sun Mar 15 15:49:05 2026
+
+
+[15:49:05] INFO: Simulation started
+[15:49:05] INFO: Using Priority scheduling
+[15:49:08] INFO: VM 0 arrived (Priority: 1, Burst: 3059ms)
+[15:49:08] SUCCESS: VM 0 scheduled for execution
+[15:49:08] INFO: VM 0 started execution (CPU: 4, Memory: 2, Storage: 11)
+[15:49:09] INFO: VM 1 arrived (Priority: 4, Burst: 1078ms)
+[15:49:09] SUCCESS: VM 1 scheduled for execution
+[15:49:09] INFO: VM 1 started execution (CPU: 4, Memory: 2, Storage: 5)
+[15:49:10] SUCCESS: VM 1 completed execution
+[15:49:11] INFO: VM 2 arrived (Priority: 0, Burst: 1886ms)
+[15:49:11] SUCCESS: VM 0 completed execution
+[15:49:11] SUCCESS: VM 2 scheduled for execution
+[15:49:11] INFO: VM 2 started execution (CPU: 3, Memory: 4, Storage: 19)
+[15:49:12] SUCCESS: VM 2 completed execution
+[15:49:13] INFO: VM 3 arrived (Priority: 4, Burst: 1635ms)
+[15:49:13] SUCCESS: VM 3 scheduled for execution
+[15:49:13] INFO: VM 3 started execution (CPU: 1, Memory: 5, Storage: 17)
+[15:49:14] SUCCESS: VM 3 completed execution
+[15:49:16] INFO: VM 4 arrived (Priority: 3, Burst: 4822ms)
+[15:49:16] SUCCESS: VM 4 scheduled for execution
+[15:49:16] INFO: VM 4 started execution (CPU: 1, Memory: 5, Storage: 12)
+[15:49:19] INFO: VM 5 arrived (Priority: 4, Burst: 1900ms)
+[15:49:19] SUCCESS: VM 5 scheduled for execution
+[15:49:19] INFO: VM 5 started execution (CPU: 4, Memory: 4, Storage: 8)
+[15:49:20] SUCCESS: VM 4 completed execution
+[15:49:20] SUCCESS: VM 5 completed execution
+[15:49:22] INFO: VM 6 arrived (Priority: 4, Burst: 2085ms)
+[15:49:22] SUCCESS: VM 6 scheduled for execution
+[15:49:22] INFO: VM 6 started execution (CPU: 2, Memory: 5, Storage: 19)
+[15:49:24] INFO: VM 7 arrived (Priority: 2, Burst: 3144ms)
+[15:49:24] SUCCESS: VM 6 completed execution
+[15:49:24] SUCCESS: VM 7 scheduled for execution
+[15:49:24] INFO: VM 7 started execution (CPU: 1, Memory: 7, Storage: 11)
+[15:49:25] INFO: VM 8 arrived (Priority: 2, Burst: 1786ms)
+[15:49:25] SUCCESS: VM 8 scheduled for execution
+[15:49:25] INFO: VM 8 started execution (CPU: 4, Memory: 5, Storage: 9)
+[15:49:26] SUCCESS: VM 8 completed execution
+[15:49:27] SUCCESS: VM 7 completed execution
+[15:49:28] INFO: VM 9 arrived (Priority: 4, Burst: 1143ms)
+[15:49:28] SUCCESS: VM 9 scheduled for execution
+[15:49:28] INFO: VM 9 started execution (CPU: 3, Memory: 5, Storage: 15)
+[15:49:29] SUCCESS: VM 9 completed execution
+[15:49:31] INFO: VM 10 arrived (Priority: 4, Burst: 1899ms)
+[15:49:31] SUCCESS: VM 10 scheduled for execution
+[15:49:31] INFO: VM 10 started execution (CPU: 1, Memory: 7, Storage: 17)
+[15:49:32] INFO: VM 11 arrived (Priority: 1, Burst: 4998ms)
+[15:49:32] SUCCESS: VM 11 scheduled for execution
+[15:49:32] SUCCESS: VM 10 completed execution
+[15:49:32] INFO: VM 11 started execution (CPU: 2, Memory: 7, Storage: 12)
+[15:49:33] INFO: VM 12 arrived (Priority: 4, Burst: 4199ms)
+[15:49:33] SUCCESS: VM 12 scheduled for execution
+[15:49:33] INFO: VM 12 started execution (CPU: 4, Memory: 7, Storage: 6)
+[15:49:36] SUCCESS: VM 11 completed execution
+[15:49:37] SUCCESS: VM 12 completed execution
+[15:49:38] SUCCESS: Simulation completed successfully
+
+=== Log Ended ===
