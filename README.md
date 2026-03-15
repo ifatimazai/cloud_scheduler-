@@ -4,7 +4,7 @@ A comprehensive simulation of a cloud data center resource scheduler demonstrati
 
 ---
 
-# 📋 Overview
+#  Overview
 
 This project simulates a cloud computing environment where:
 
@@ -16,7 +16,7 @@ This project simulates a cloud computing environment where:
 
 ---
 
-# 🎯 Key Features
+#  Key Features
 
 ## 1. Dynamic VM Arrivals
 - VMs arrive randomly throughout the simulation
@@ -51,7 +51,7 @@ This project simulates a cloud computing environment where:
 
 ---
 
-# 🛠️ Project Structure
+#  Project Structure
 
 ```
 cloud_scheduler/
@@ -74,7 +74,7 @@ cloud_scheduler/
 
 ---
 
-# 🚀 Building the Project
+#  Building the Project
 
 ## Prerequisites
 - GCC compiler
@@ -96,7 +96,7 @@ make rebuild
 
 ---
 
-# ▶️ Running the Simulation
+#  Running the Simulation
 
 ## With Priority Scheduling (Default)
 
@@ -111,7 +111,7 @@ make run-sjf
 ```
 ---
 
-# ▶️ How to Run the Cloud Scheduler Project
+#  How to Run the Cloud Scheduler Project
 
 Follow these simple steps in VS Code.
 
@@ -174,7 +174,7 @@ This will start the Cloud Scheduler simulator directly from the executable file.
 
 ---
 
-# 📊 Output Explanation
+#  Output Explanation
 
 ## Console Output
 
@@ -205,7 +205,7 @@ A detailed log file (`simulation_log.txt`) is generated containing:
 
 ---
 
-# 🔑 Key Components
+#  Key Components
 
 ## Virtual Machine (vm.h/vm.c)
 
@@ -243,7 +243,7 @@ A detailed log file (`simulation_log.txt`) is generated containing:
 
 ---
 
-# 🎓 OS Concepts Demonstrated
+#  OS Concepts Demonstrated
 
 ## 1. Multithreading
 - Multiple threads representing different components
@@ -277,7 +277,7 @@ A detailed log file (`simulation_log.txt`) is generated containing:
 
 ---
 
-# 📈 System Configuration
+#  System Configuration
 
 Default system resources:
 
@@ -299,7 +299,7 @@ Modify in `src/main.c`:
 
 ---
 
-# 🧪 Testing
+#  Testing
 
 ## Test Different Scheduling Policies
 
@@ -327,7 +327,7 @@ make run-sjf
 
 ---
 
-# 📝 Example Output
+#  Example Output
 
 ```
 ╔════════════════════════════════════════════════════════╗
@@ -360,7 +360,7 @@ Overall Utilization: 12.50%
 
 ---
 
-# 🔧 Troubleshooting
+#  Troubleshooting
 
 ## Compilation Errors
 
@@ -382,7 +382,7 @@ Overall Utilization: 12.50%
 
 ---
 
-# 📚 Further Enhancements
+#  Further Enhancements
 
 Possible improvements:
 
@@ -396,18 +396,18 @@ Possible improvements:
 
 ---
 
-# 👥 Developer 
-- **Fatima Yousaf**: Thread execution, synchronization, CLI integration  
+#  Developer 
+- **Fatima Yousaf**: Thread execution, synchronization, CLI integration , Thread creation, resource allocation, scheduler logic
 
 ---
 
-# 📄 License
+#  License
 
 This project is open-source and available for educational purposes.
 
 ---
 
-# 🙏 Acknowledgments
+#  Acknowledgments
 
 This project demonstrates practical implementation of concepts from:
 
