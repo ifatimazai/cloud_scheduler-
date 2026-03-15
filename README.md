@@ -109,6 +109,40 @@ make run
 ```bash
 make run-sjf
 ```
+How to Run the Cloud Scheduler Project
+Follow these simple steps in VS Code.
+
+Step 1: Open the Project
+Open Visual Studio Code and open the folder named cloud_scheduler.
+
+Step 2: Open the Terminal
+Press:
+
+Ctrl + `
+
+The terminal will open at the bottom.
+
+Step 3: Go to the Project Folder
+If the terminal is not already inside the folder, type:
+
+cd cloud_scheduler
+
+Step 4: Run the SJF Scheduler
+Type the following command and press Enter:
+
+.\run_sjf.bat
+
+Step 5: Run the Priority Scheduler
+Type the following command and press Enter:
+
+.\run.bat
+
+If a menu appears, select the Priority Scheduling option.
+
+Alternative Method
+You can also run the program directly by typing:
+
+.\cloud_scheduler.exe 
 
 ## Manual Execution
 
